@@ -23,11 +23,7 @@ public class task3 {
                     } else if (num3 > num1 && num3 > num2) {
                         maxFloat = num3;
                         System.out.println(maxFloat);
-                    } else if (num1 % 1 == 0) {
-                        System.out.println("Ви ввели не дробове число");
-                    } else if (num2 % 1 == 0) {
-                        System.out.println("Ви ввели не дробове число");
-                    } else if (num3 % 1 == 0) {
+                    } else if (num1 % 1 == 0 && num2 % 1 == 0 && num3 % 1 == 0) {
                         System.out.println("Ви ввели не дробове число");
                     }
                 } else {
